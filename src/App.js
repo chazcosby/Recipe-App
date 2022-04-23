@@ -7,8 +7,6 @@ import RecipeData from "./RecipeData";
 export default function App() {
   const [recipes, setRecipes] = useState(RecipeData);
 
-  // TODO: Add the ability for the <RecipeList /> component to list, edit and delete an existing recipe.
-  // TODO: Add the ability for the <RecipeCreate /> component to create new recipes.
 
   return (
     <div className="App">
